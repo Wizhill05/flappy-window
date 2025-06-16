@@ -1,4 +1,4 @@
-https://github.com/user-attachments/assets/1db4f5be-f6a3-4d07-9b4b-63d1bdc53c07
+https://github.com/user-attachments/assets/4254a48a-e32a-4063-a78d-e47003d7ffe1
 
 Yes, it does turn your audio 100 to play the death sound
 
