@@ -89,13 +89,12 @@ def create_pipe():
     top_pipe.configure(bg=pipe_color)
     top_pipe.attributes("-topmost", True)
 
-    # Bottom Pipe Window
     bottom_pipe = tk.Toplevel(bird)
     bottom_pipe.title("Pipe")
     bottom_pipe.geometry(
         f"{pipe_width}x{bottom_pipe_height}+{initial_x}+{bottom_pipe_y_start}"
     )
-    bottom_pipe.overrideredirect(True)  # Remove title bar
+    bottom_pipe.overrideredirect(True)
     bottom_pipe.resizable(width=False, height=False)
     bottom_pipe.configure(bg=pipe_color)
     bottom_pipe.attributes("-topmost", True)
@@ -146,10 +145,10 @@ def update_bird():
     velocity += gravity
 
     if bird.winfo_y() > screenRes[1]:
-        vol = int(get_volume())
-        pyvolume.custom(100)
+        # vol = int(get_volume())
+        # pyvolume.custom(100)
         # playsound("death.mp3")
-        pyvolume.custom(vol)
+        # pyvolume.custom(vol)
         exit()
 
     if bird.winfo_y() < 0:
@@ -177,6 +176,7 @@ if __name__ == "__main__":
     bird.overrideredirect(True)
     bird.configure(bg=transparent_color)
     bird.wm_attributes("-transparentcolor", transparent_color)
+    bird.attributes("-topmost", True)  # Keep bird window on top
 
     bird.resizable(width=False, height=False)
     bird.bind("<space>", jump)
