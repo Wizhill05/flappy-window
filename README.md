@@ -6,7 +6,7 @@ This Readme is AI Generated, i didnt bother to type this all sorry
 
 # Flappy Window
 
-Yo! So, like, this is a Flappy Bird clone. But instead of one window, it's, like, *multiple* windows. The bird's a window, the pipes are windows... it's windows all the way down, man. Trippy, right?
+Yo! So, like, this is a Flappy Bird clone. But instead of one window, it's, like, _multiple_ windows. The bird's a window, the pipes are windows... it's windows all the way down, man. Trippy, right?
 
 ## Whaaat is it?
 
@@ -17,7 +17,7 @@ It's Flappy Bird. You know, that game that made everyone wanna throw their phone
 1.  **Get Python:** If you don't have it, go grab it. Google "python download." You got this.
 2.  **Install the Stuff:** Open up your terminal or command prompt (that black box thingy) and type this:
     ```bash
-    pip install Pillow wxPython playsound pyvolume pycaw comtypes
+    pip install -r requirements.txt
     ```
     If it yells at you, uh... Google the error? Or just, like, hope for the best.
 3.  **Get the Bird Pic:** Make sure you have a `red.png` image in the same folder as `game.py`. It's the bird. No bird, no fly.
@@ -29,20 +29,20 @@ It's Flappy Bird. You know, that game that made everyone wanna throw their phone
 
 ## How to Play (Spoiler: It's Hard)
 
-*   Press **SPACEBAR** to make the bird flap.
-*   Try not to hit the green pipe windows.
-*   Try not to hit the top or bottom of the screen.
-*   Basically, try not to die. Good luck with that.
+- Press **SPACEBAR** to make the bird flap.
+- Try not to hit the green pipe windows.
+- Try not to hit the top or bottom of the screen.
+- Basically, try not to die. Good luck with that.
 
 ## Why Tho?
 
-'Cause why not? Seemed like a fun/dumb idea. Now you can experience the rage of Flappy Bird with, like, *way* more windows. You're welcome.
+'Cause why not? Seemed like a fun/dumb idea. Now you can experience the rage of Flappy Bird with, like, _way_ more windows. You're welcome.
 
 ## Known "Features" (aka Bugs I'm Too Lazy to Fix)
 
-*   It might be janky.
-*   Performance? What's that?
-*   If your screen resolution is weird, stuff might look... extra weird.
-*   It uses a bunch of separate windows, so your taskbar might hate you.
+- It might be janky.
+- Performance? What's that?
+- If your screen resolution is weird, stuff might look... extra weird.
+- It uses a bunch of separate windows, so your taskbar might hate you.
 
-Peace out!  शांति! ✌️
+Peace out! शांति! ✌️
